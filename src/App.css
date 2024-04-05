@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+/* ------------------- */
+.container {
+  margin: 0 333px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header__text {
+  margin: 20px;
+  font-weight: bold;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.post__item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0px 0px 36px 0px;
+  margin-top: 25px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.wrapper {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.post__text {
+  display: block;
 }
 
-.App-link {
-  color: #61dafb;
+.authors__name {
+}
+.authors__name img {
+  position: relative;
+  right: 5px;
+  bottom: 1px;
+}
+.authors__name-span {
+  font-weight: bold;
+  opacity: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.post__title {
+  margin-top: 20px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.post__descr {
+  /* mb-0 mt-5 */
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+.post__info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.post__info-text img {
+}
+.post__info-text span {
+  opacity: 0.5;
+}
+.post__info-lang {
+  border-radius: 100px;
+  width: 107px;
+  height: 30px;
+  border: none;
+}
+.post__info-btns {
+  display: flex;
+  flex-direction: row;
+  margin-right: 14px;
+  justify-content: space-between;
+  width: 100px;
+  height: 24px;
+}
+.post__info-btn {
+  background: #e1e0e6;
+  width: 24px;
+  height: 24px;
+}
+
+.post__img {
+  width: 256px;
+  width: 265px;
+}
+.post__img img {
+  width: 256px;
+  width: 265px;
+}
+
+.main__link {
+  text-decoration: none;
+  color: black;
+}
+
+/* footer ------------------------------------- */
+.footer__text {
+  margin-top: 200px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  text-align: end;
+  color: #081e34;
+  a {
+    color: #081e34;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.footer__links {
+}
+.footer__nf {
+  margin-top: 32px;
 }
